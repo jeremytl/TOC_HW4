@@ -1,3 +1,13 @@
+/**
+ * @author 陳緯峻 Wei-Jun Chen
+ * student number : F74006129
+ * description:
+ * 		Parse the .json data from the URL(args[0]),
+ * generate the data and find the max_distinct_months road, street, or lane,
+ * then output the name, the max_deal_price and min_deal_price of the road, street, or lane 
+ * 
+ */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,12 +16,7 @@ import java.util.*;
 import java.util.regex.*;
 
 import org.json.*;
-//import java.util.regex.Matcher;
 
-/**
- * @author user
- * 
- */
 public class TocHw4 {
 	
 	private static int findmdm(int[][] in){
